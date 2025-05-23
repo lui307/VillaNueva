@@ -1,0 +1,18 @@
+{
+    "name": "licoreriaproject/core",
+    "description": "Licoreria Viña Nueva",
+    "autoload": {
+        "psr-4": {
+            "Licoreriaproject\\Core\\": "vendor/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabricio Sanchez"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "paypal/paypal-checkout-sdk": "^1.0"
+    }
+}
